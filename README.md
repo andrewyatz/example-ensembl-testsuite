@@ -6,9 +6,9 @@ An example project which uses the Ensembl test suite infrastructure. The `.gitig
 ## Running t/mymodule.t
 
 1. Make sure you have the following on your PERL5LIB
-..* ensembl/modules
-..* ensembl-test/modules
-..* bioperl-1.2.3
+  * ensembl/modules
+  * ensembl-test/modules
+  * bioperl-1.2.3
 2. Run `cpanm --installdeps .` to bring in required dependencies
 3. Copy `t/MultiTestDB.conf.example` to `t/MutliTestDB.conf` and edit to your local settings
 3. Run `perl -I modules t/mymodule.t`
@@ -23,8 +23,8 @@ An example project which uses the Ensembl test suite infrastructure. The `.gitig
 ## Running long_multi.t
 
 1. Make sure you have a checkout of the following *1 directory above this*
-..* ensembl-hive
-..* ensembl/modules
-..* ensembl-test/modules
-..* bioperl-1.2.3
+  * ensembl-hive
+  * ensembl/modules
+  * ensembl-test/modules
+  * bioperl-1.2.3
 2. Run `perl t/long_multi.t`
