@@ -1,0 +1,10 @@
+{
+	databases => {
+		homo_sapiens => {
+			core => 'Bio::EnsEMBL::DBSQL::DBAdaptor'
+		},
+		hive => {
+			hive => 'Bio::EnsEMBL::Hive::DBSQL::DBAdaptor'
+		}
+	},
+}

@@ -1,0 +1,10 @@
+requires 'DBI';
+requires 'DBD::mysql';
+requires 'Test::More';
+requires 'Test::Differences';
+requires 'Devel::Cycle';
+requires 'PadWalker';
+requires 'Devel::Peek';
+requires 'Test::Builder::Module';
+requires 'IO::String';
+requires 'Test::Exception';
